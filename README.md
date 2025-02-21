@@ -32,7 +32,7 @@ I wouldn’t claim Go is the perfect language (if such a thing exists), but it i
 
 Incidentally, when not some other language? Rust is very strongly pushed by its community, for instance. I suppose I would consider it if I wanted to write quantum-mechanics or molecular-mechanics code, though, really, I’d probably just go with C or, perhaps, Zig. Rust seems like a pretty big language, and I personally favor small ones that fit in my head (I have a somewhat big head, but it doesn’t fit much). Both Go and Rust are memory-safe. While Go uses garbage collection, Rust uses a more efficient, but a lot more complex system, which also creates long compilation times (Go compiles so fast it feels like running a script). If people have issues learning Go, Rust has a way steeper learning curve. 
 
-Please don’t take this as an attack on Python (or Rust, on which I have zero experience). While there are things about Python that irritate me, that’s also the case with Go. It’s just that nobody tries to use Go for 100-500 LOC projects. Python is a fantastic language and I wish it and Go could interact better (there are efforts in that direction). I merely think Go is better for a particular kind of problem.
+Please don’t take this as an attack on Python (or Rust, with which I have zero experience). While there are things about Python that irritate me, that’s also the case with Go. Python is a fantastic language and I wish it and Go could interact better (I know there are efforts in that direction). I merely think Go is better for a particular kind of problem.
 
 
 
