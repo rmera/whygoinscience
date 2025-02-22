@@ -20,6 +20,8 @@ I wouldn’t claim Go is the perfect language (if such a thing exists), but it i
 
 * Go is fast enough that you can write almost anything in it. Combined with the previous point, this means that you can actually read and understand the numerical libraries you use. I’m just a regular user and have read code from [Gonum](https://gonum.org), the numerical library for Go, many times. I'd say this is generally not the case for numerical Python libraries (though Cython is a big help, when it’s used). I prefer to have as little 'magic' as possible involved in my project.
 
+* On the library topic, there are quite some useful libraries. The aformentioned Gonum, for instance, is excellent.
+
 * Go is statically typed. Though most often you don't need to explicitly deal with types, this can be an annoyance for small projects, but it is -in my opinion- indispensable for large ones.
 
 * While not as fast as C, Go lets you use all your CPU cores with relative ease. Whoever you are, I don’t wish on you having to do that in C (I kid, but it _is_ a lot harder). Data races are possible in Go, but its not too hard to avoid them, especially with the included detector. Thus, unless you are willing to put a fair bit of extra effort to parallelize C code, Go code is often faster.
