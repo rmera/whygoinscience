@@ -22,7 +22,7 @@ I wouldn’t claim Go is the perfect language (if such a thing exists), but it i
 
 * On the library topic, there are quite some useful libraries. The aformentioned Gonum, for instance, is excellent.
 
-* Go is statically typed. Though most often you don't need to explicitly deal with types, this can be an annoyance for small projects, but it is -in my opinion- indispensable for large ones.
+* Go is statically typed. Though you don't need to explicitly deal with types that much, this can be an annoyance for small projects. However, I think it is indispensable for large ones.
 
 * While not as fast as C, Go lets you use all your CPU cores with relative ease. Whoever you are, I don’t wish on you having to do that in C (I kid, but it _is_ a lot harder). Data races are possible in Go, but its not too hard to avoid them, especially with the included detector. Thus, unless you are willing to put a fair bit of extra effort to parallelize C code, Go code is often faster.
 
